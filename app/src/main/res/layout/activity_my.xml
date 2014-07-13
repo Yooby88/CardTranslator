@@ -13,6 +13,7 @@
         android:layout_height="wrap_content"
         android:text="Character Cards"
         android:id="@+id/button"
+        android:onClick="loadCharacterCardMenu"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true" />
 
@@ -23,13 +24,14 @@
         android:id="@+id/button2"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="158dp" />
+        android:layout_marginBottom="158dp"
+        android:onClick="loadOtherCardsMenu" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/gameName"
-        android:textSize="28dp"
+        android:textSize="30dp"
         android:id="@+id/textView"
         android:layout_marginTop="79dp"
         android:layout_alignParentTop="true"

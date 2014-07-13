@@ -4,6 +4,8 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.content.Intent;
 
 
 public class MyActivity extends Activity {
@@ -14,6 +16,12 @@ public class MyActivity extends Activity {
         setContentView(R.layout.activity_my);
     }
 
+    public void loadCharacterCardMenu (View v){
+        startActivity(new Intent(getApplicationContext(), characterCards.class));
+    }
+    public void loadOtherCardsMenu (View v){
+        startActivity(new Intent(getApplicationContext(), OtherCards.class));
+    }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {

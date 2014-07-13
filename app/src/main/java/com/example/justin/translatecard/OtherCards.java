@@ -6,19 +6,19 @@ import android.view.Menu;
 import android.view.MenuItem;
 import com.example.justin.translatecard.R;
 
-public class characterCards extends Activity {
+public class OtherCards extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_character_cards);
+        setContentView(R.layout.activity_other_cards);
     }
 
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.character_cards, menu);
+        getMenuInflater().inflate(R.menu.other_cards, menu);
         return true;
     }
 
