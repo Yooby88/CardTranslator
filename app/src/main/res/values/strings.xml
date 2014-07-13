@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">translateCard</string>
+    <string name="app_name">San Guo Sha Translator</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
-    <string name="gameName">SanGuoShaEng</string>
-    <string name="title_activity_character_cards">characterCards</string>
-    <string name="title_activity_other_cards">OtherCards</string>
+    <string name="gameName">San Guo Sha</string>
+    <string name="title_activity_character_cards">Character Cards</string>
+    <string name="title_activity_other_cards">Spell Cards</string>
 
 </resources>
