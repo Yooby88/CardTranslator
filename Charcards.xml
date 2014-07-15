@@ -1,0 +1,154 @@
+<?xml version= "1.0"?>
+
+<charCard>
+	<cardID>id
+			<imgUrl></imgUrl>    
+			<pinyin></pinyin>
+			<chchar></chchar>
+			<kingd></kingd>
+			<blood></blood>
+			<url></url>
+			<abilities>
+				<abil1>
+				</abil1>
+				<abil2>
+				</abil2>
+				<abil3>
+				</abil3>
+			</abilities>
+	</cardID>
+	<cardID>shu001
+			<imgUrl></imgUrl>    
+			<pinyin>liú bèi</pinyin>
+			<chchar>刘备</chchar>
+			<kingd>Shu</kingd>
+			<blood>4</blood>
+			<url>http://sanguoshaenglish.blogspot.com/2010/07/liu-bei.html</url>
+			<abilities>
+				<abil1>
+					<name>Benevolence</name>
+					<expl>You can give any amount of on-hand cards to any amount of players in his turn. If the total number of cards given away is 2 or more, you regain 1 unit of health.</expl>
+				</abil1>
+				<abil2>
+					<name>[Ruler Ability] Rouse</name>
+					<expl>You can ask any Shu 蜀 character that is in play to use an ATTACK 杀 card for you.
+					(The attack is considered as being "used" by Liu Bei even though the card itself comes from another player. This means the attack properties such as range and element is based on Liu Bei, not the player that issued the card. Of course, Shu characters in play can choose not to use an ATTACK card for him.)</expl>
+				</abil2>
+			</abilities>
+
+	</cardID>
+
+	<cardID>shu004
+			<imgUrl></imgUrl>    
+			<pinyin>Elder zhūgě liàng</pinyin>
+			<chchar>暮年诸葛亮</chchar>
+			<kingd>Shu</kingd>
+			<blood>3</blood>
+			<url>http://sanguoshaenglish.blogspot.com/2010/07/elder-zhu-ge-liang.html</url>
+			<abilities>
+				<abil1>
+					<name>Star Gazing</name>
+					<expl>At the beginning of your turn, you can view X number of cards from the top of the deck (X equals to the number of players still in play with X having maximum of 5). Of these X cards, you can choose any number of cards to place at the top or at the bottom of the pile. You can also rearrange the order of the cards.</expl>
+				</abil1>
+				<abil2>
+					<name>Empty Chair</name>
+					<expl>When you have no cards on hand, you cannot become the target of ATTACK 杀 or DUEL 决斗.</expl>
+				</abil2>
+			</abilities>
+	</cardID>
+	
+	<cardID>shu005
+		<imgUrl></imgUrl>    
+		<pinyin>zhào yún</pinyin>
+		<chchar>赵云</chchar>
+		<kingd>Shu</kingd>
+		<blood>4</blood>
+		<url>http://sanguoshaenglish.blogspot.com/2010/07/zhao-yun.html</url>
+		<abilities>
+			<abil1>
+				<name>Dragon Heart</name>
+				<expl>All your ATTACK 杀 and DODGE 闪 cards can be used interchangeably.</expl>
+			</abil1>
+		</abilities>
+	</cardID>
+	
+	<cardID>
+		<imgUrl></imgUrl>    
+		<pinyin></pinyin>
+		<chchar></chchar>
+		<kingd></kingd>
+		<blood></blood>
+		<url></url>
+		<abilities>
+			<abil1>
+			</abil1>
+			<abil2>
+			</abil2>
+			<abil3>
+			</abil3>
+		</abilities>
+	</cardID>
+	
+	<cardID>shu004
+		<imgUrl></imgUrl>    
+		<pinyin></pinyin>
+		<chchar></chchar>
+		<kingd></kingd>
+		<blood></blood>
+		<url></url>
+		<abilities>
+			<abil1>
+			</abil1>
+			<abil2>
+			</abil2>
+			<abil3>
+			</abil3>
+		</abilities>
+	</cardID>
+###############Out of sync	
+	<cardID>shu005
+			<imgUrl></imgUrl>
+			<pinyin>zhào yún</pinyin>
+			<chchar>赵云</chchar>
+			<kingd>Shu</kingd>
+			<blood>4</blood>
+			<url>http://sanguoshaenglish.blogspot.com/2010/07/zhao-yun.html</url>
+			<abilities>
+				<abil1>
+					<name>Dragon Heart (龙胆)</name>
+					<expl>All your ATTACK 杀 and DODGE 闪 cards can be used interchangeably.</expl>
+			</abilities>
+	</cardID>	
+	
+	<cardID>wu001
+			<imgUrl></imgUrl>
+			<pinyin>xiǎo qiáo</pinyin>
+			<chchar>小乔</chchar>
+			<kingd>Wu</kingd>
+			<blood>3</blood>
+			<url>http://sanguoshaenglish.blogspot.com/2013/03/xiao-qiao.html</url>
+			<abilities>
+		
+				<abil1>
+					<name>Heanvenly Scent (天香)</name>
+					<expl>Whenever you receive any damage, you can choose to pass the damage on to any other player by discarding an on-hand card that has a suit of "hearts". The victim that receives the damage gets to draw X number of cards from the deck, X being the total amount of health loss (measured from the character's maximum health level) after the deflection.
+					
+					(Xiao Qiao is left unscathed once the damage is passed to another player. For example, Xiao Qiao receives 2 units of damage and she discards ONE on-hand card of "hearts" suit to pass the damage on to Zhang Fei 张飞 (who currently has 2 units of health left with a maximum health of 4). Zhang Fei loses 2 units of health due to damage passed by Xiao Qiao, however he does not get to draw 4 cards (Max health = 4, subtract current health = 0, equals 4 cards to draw) until he has been rescued from the brink of death.)</expl>
+				</abil1>
+				<abil2>
+					<name>Youthful Beauty (红颜)</name>
+					<expl> You will always regard all cards with a suit of "spades" as the suit of 	"hearts".
+					This effectively means that her "Heavenly Scent" ability will also work if she discards a "spade" since it is regarded as a "heart". This also means that LIGHTNING will NEVER strike her since she is the one that conducts the judgement for LIGHTNING and it requires "spades" to strike. An additional bonus is that she has a stronger chance of overcoming ACEDIA since judgement card of "spades" will equal to "hearts". </expl>
+		
+				</abil2>
+	</abilities>
+	</cardID>
+	
+	
+	
+	
+	
+	
+	
+	</charCard>
+
