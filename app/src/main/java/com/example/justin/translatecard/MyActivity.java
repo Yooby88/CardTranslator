@@ -17,7 +17,7 @@ public class MyActivity extends Activity {
     }
 
     public void loadCharacterCardMenu (View v){
-        startActivity(new Intent(getApplicationContext(), characterCards.class));
+        startActivity(new Intent(getApplicationContext(), CharacterCards.class));
     }
     public void loadOtherCardsMenu (View v){
         startActivity(new Intent(getApplicationContext(), OtherCards.class));

@@ -4,15 +4,9 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.support.v4.app.FragmentActivity;
-import android.support.v4.view.ViewPager;
 import com.example.justin.translatecard.R;
 
-public class characterCards extends FragmentActivity {
-
-    //MyAdapter mAdapter;
-
-    ViewPager mPager;
+public class CharacterCards extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

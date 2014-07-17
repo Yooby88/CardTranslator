@@ -24,6 +24,10 @@
             android:name=".OtherCards"
             android:label="@string/title_activity_other_cards" >
         </activity>
+        <activity
+            android:name=".CharacterCards"
+            android:label="@string/title_activity_character_cards" >
+        </activity>
     </application>
 
 </manifest>
