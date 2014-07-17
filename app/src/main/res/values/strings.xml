@@ -7,9 +7,5 @@
     <string name="gameName">San Guo Sha</string>
     <string name="title_activity_character_cards">Character Cards</string>
     <string name="title_activity_other_cards">Spell Cards</string>
-    <string name="title_card_list">Cards</string>
-    <string name="title_card_detail">Card Detail</string>
-    <string name="title_charactercard_list">CharacterCards</string>
-    <string name="title_charactercard_detail">CharacterCard Detail</string>
 
 </resources>

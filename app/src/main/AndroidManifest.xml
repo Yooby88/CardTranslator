@@ -24,34 +24,6 @@
             android:name=".OtherCards"
             android:label="@string/title_activity_other_cards" >
         </activity>
-        <activity
-            android:name=".CardListActivity"
-            android:label="@string/title_card_list" >
-        </activity>
-        <activity
-            android:name=".CardDetailActivity"
-            android:label="@string/title_card_detail"
-            android:parentActivityName=".CardListActivity" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.justin.translatecard.CardListActivity" />
-        </activity>
-        <activity
-            android:name=".CharacterCardListActivity"
-            android:label="@string/title_charactercard_list"
-            android:parentActivityName=".characterCards" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.justin.translatecard.characterCards" />
-        </activity>
-        <activity
-            android:name=".CharacterCardDetailActivity"
-            android:label="@string/title_charactercard_detail"
-            android:parentActivityName=".CharacterCardListActivity" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.justin.translatecard.CharacterCardListActivity" />
-        </activity>
     </application>
 
 </manifest>
